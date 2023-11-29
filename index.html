@@ -26,20 +26,23 @@
       </nav>
     </header>
     <main>
-      <section class="container bannerPrincipal mb-2">
+      <section class="bannerPrincipal mb-2">
         <img
           src="./img/botonesazules.jpg"
           alt="imagen de banner de botones azules"
+          class="img-fluid"
         />
         <div class="container containerBannerPrincipal">
           <h1 class="mt-5 textoBannerPrincipal">Juego de Adivinanza</h1>
         </div>
       </section>
       <section class="container mb-2 d-flex align-items-center">
-        <button class="botonPrincipal mx-auto" onclick="comenzarJuego()">
-          <span>Comenzar el juego</span>
-        </button>
-        <div id="juego" style="display: none">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <button class="botonPrincipal mx-auto" onclick="comenzarJuego()">
+            <span>Comenzar el juego</span>
+          </button>
+        </div>
+        <div id="juego" class="col-lg-6 col-md-6 col-sm-12" style="display: none">
           <h3 class="m-4">Ingresa un número:</h3>
           <div class="input-group m-3">
             <input
