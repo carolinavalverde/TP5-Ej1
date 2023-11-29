@@ -33,3 +33,7 @@ function reiniciarJuego() {
   document.getElementById("juego").style.display = "none";
   numeroMagico = null;
 }
+
+function recargarPagina() {
+  location.reload(true);
+}
