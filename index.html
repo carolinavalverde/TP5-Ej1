@@ -38,11 +38,19 @@
       </section>
       <section class="container mb-2 d-flex align-items-center">
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <button class="botonPrincipal mx-auto" onclick="comenzarJuego()">
+          <button
+            class="botonPrincipal mx-auto"
+            type="button"
+            onclick="comenzarJuego()"
+          >
             <span>Comenzar el juego</span>
           </button>
         </div>
-        <div id="juego" class="col-lg-6 col-md-6 col-sm-12" style="display: none">
+        <div
+          id="juego"
+          class="col-lg-6 col-md-6 col-sm-12"
+          style="display: none"
+        >
           <h3 class="m-4">Ingresa un número:</h3>
           <div class="input-group m-3">
             <input
@@ -52,7 +60,11 @@
               placeholder="Ingresa un número del 1 al 100"
             />
             <div class="input-group-append">
-              <button class="btn btn-primary" onclick="verificarNumero()">
+              <button
+                type="submit"
+                class="btn btn-primary"
+                onclick="verificarNumero()"
+              >
                 Enviar
               </button>
             </div>
